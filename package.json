@@ -1,0 +1,32 @@
+{
+  "name": "br_sales_floor_loop_up",
+  "version": "1.0.0",
+  "description": "search for items on the sales floor Front end    seach bar to take SKU input   return      1. display style     2. location and sub location (ex: Man's 3, piprack) App   Top bar     search bar       input         drop down       search butoon      (manue butoon)   Item Info     location Info       sales floor location        section location     display Info       display style       display style detail",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raylin009/BR_sales_floor_loop_up.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Raylin009/BR_sales_floor_loop_up/issues"
+  },
+  "homepage": "https://github.com/Raylin009/BR_sales_floor_loop_up#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.16",
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2",
+    "html-webpack-plugin": "^5.3.1",
+    "webpack": "^5.36.1",
+    "webpack-cli": "^4.6.0"
+  }
+}
