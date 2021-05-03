@@ -4,7 +4,8 @@
   "description": "search for items on the sales floor Front end    seach bar to take SKU input   return      1. display style     2. location and sub location (ex: Man's 3, piprack) App   Top bar     search bar       input         drop down       search butoon      (manue butoon)   Item Info     location Info       sales floor location        section location     display Info       display style       display style detail",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "npx webpack --watch"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,8 @@
   },
   "homepage": "https://github.com/Raylin009/BR_sales_floor_loop_up#readme",
   "dependencies": {
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/icons": "^4.11.2",
     "express": "^4.17.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
