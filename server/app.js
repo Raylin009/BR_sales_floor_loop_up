@@ -7,3 +7,8 @@ app.use('/', express.static('./dist', {
 }))
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+
+app.get('/item-info',(req, res)=>{
+  console.log(req.query)
+  res.send('made it')
+})
