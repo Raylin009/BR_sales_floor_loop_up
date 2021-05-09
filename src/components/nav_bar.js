@@ -1,7 +1,7 @@
 import React from "react";
-const NavBar = (props) => (
+const NavBar = (props) => {
+  return (
   <div>
-    <h5>This is nav</h5>
     <form>
       <input 
         type="number"
@@ -11,6 +11,6 @@ const NavBar = (props) => (
       <button onClick={(e)=>{props.handleSearch(e)}}>search</button>
     </form>
   </div>
-)
+)}
 
 export default NavBar
